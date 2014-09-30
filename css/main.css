@@ -103,6 +103,44 @@ textarea {
 
 
 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#container {
+    max-width: 960px;
+    width: 80%;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+#container .jumbo {
+    background-color: #eee;
+    border-radius: 16px;
+    padding: 48px 12px;
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+    font-weight: 400;
+    border-bottom-width: 6px;
+    border-bottom-style: dotted;
+    padding-bottom: 6px;
+    transition: border-bottom-color 2s ease;
+    -webkit-transition: border-bottom-color 2s ease;
+}
+
+h1 a img {
+    padding-bottom: 5px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+
 
 
 
