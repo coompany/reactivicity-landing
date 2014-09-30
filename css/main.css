@@ -118,7 +118,7 @@ body {
 #container .jumbo {
     background-color: #eee;
     border-radius: 16px;
-    padding: 48px 12px;
+    padding: 120px 12px;
     text-align: center;
 }
 
@@ -138,6 +138,10 @@ h1 a img {
 
 a:visited {
     color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
